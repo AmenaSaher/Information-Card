@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 30px;
+    background-color: #23252C;
+
+}
+.backg{
+    font-family: Inter,sans;
+}
+.card {
+    background-color: #1A1B21;
+    max-width: 317px;
+    max-height: 716px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.image {
+    width: 317px;
+    height: 300px;
+    border-radius: 5px 5px 0px 0px ;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: px;
+}
+
+.name {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    padding-top: 10px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+.info{
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 10px;
+    color: #F3BF99;
+    
+}
+.web {
+    text-align: center;
+    font-size: 10px;
+    margin: 0;
+    padding-top: 10px;
+    color: #F5F5F5;
+    padding-bottom: 10px;
+}
+.btn {
+    background-color: white; 
+    border: none;
+    color: black;
+    padding: 10px 100px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    font-size: 16px;
+    border-radius: 6px;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn > img {
+    padding: 3px ;
+    margin-right: 5px;
+}
+.about {
+    color: white;
+    padding-left: 27px;
+    padding-top: 10px;   
+    padding-right: 25px;
+}
+.about > h3{
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.about > h4{
+    font-size: 10px;
+    font-family: 'Heebo';
+    letter-spacing: 0.2px; 
+    color: #DCDCDC;
+    margin-bottom: 0px;
+}
+.interests {
+    color: white;
+    padding-left: 27px;
+    padding-top: 10px; 
+    padding-right: 25px;
+    
+}
+.interests > h3 {
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+.interests > h4{
+    font-size: 10px;
+    font-family: 'Heebo';
+    letter-spacing: 0.2px; 
+    color: #DCDCDC;
+    padding-bottom: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.fa-twitter,.fa-facebook,.fa-instagram, .fa-linkedin,.fa-youtube{
+    background: #918E9B;
+    color: black;
+    margin: 0.5rem;
+    height: 20px;
+    width: 20px;
+    padding: 3px; 
+}
